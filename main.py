@@ -57,7 +57,7 @@ def reorg_train_valid(data_dir, labels, valid_ratio):
     return n_valid_per_label
 
 
-'''验证集'''
+'''测试集'''
 def reorg_test(data_dir):
     for test_file in os.listdir(os.path.join(data_dir, 'test')):
         fname = os.path.join(data_dir, 'test', test_file)
